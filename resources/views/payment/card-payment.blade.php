@@ -34,21 +34,21 @@
 
         <div class="form-group">
             <label>Card Number</label>
-            <input type="text" name="card_number" value="4567901109631750" required>
+            <input type="text" name="card_number" placehokder="45000000000001" required>
         </div>
 
         <div style="display: flex; gap: 10px;">
             <div style="flex: 1;">
                 <label>Expiry Month</label>
-                <input type="text" name="expiry_month" value="04" required>
+                <input type="text" name="expiry_month" placeholder="01" required>
             </div>
             <div style="flex: 1;">
                 <label>Expiry Year</label>
-                <input type="text" name="expiry_year" value="2026" required>
+                <input type="text" name="expiry_year" placeholder="2030" required>
             </div>
             <div style="flex: 1;">
                 <label>CVV</label>
-                <input type="password" name="cvv" value="787" required>
+                <input type="password" name="cvv" value="000" required>
             </div>
         </div>
 
